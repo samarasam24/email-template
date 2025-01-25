@@ -10,15 +10,20 @@
             padding: 0;
             box-sizing: border-box;
         }
+        @media only screen and (max-width:425px) {
+            .mobile-none{
+                display: none !important;
+            }
+        }
     </style>
 </head>
-<body bgcolor="#f2f2f2">
-    <table bgcolor="#ffffff" style="margin: 0 auto;" width="650" align="center" cellspacing="0">
+<body bgcolor="#f2f2f2" width="650" cellpadding="0" cellspacing="0">
+    <table bgcolor="#ffffff" style="margin: 0 auto;" width="650" align="center" cellspacing="0" cellpadding="0"> 
         <tbody align="center">
             <!-- top logo -->
             <tr>
                 <td bgcolor="#2b2c2c">
-                    <table cellspacing="0" cellpadding="0">
+                    <table cellspacing="0" cellpadding="0" width="650"> 
                         <tbody>
                             <tr>
                                 <td height="20" style="height: 20px;"></td>
@@ -36,15 +41,41 @@
                 </td>
             </tr>
             <!-- link section -->
-             <tr>
+            <tr>
                 <td bgcolor="#E2E3E3" cellspacing="0" cellpadding="0">
-                    <table cellspacing="0" cellpadding="0">
+                    <table width="650" cellpadding="0" cellspacing="0"">
                         <tbody>
                             <tr>
                                 <td height="10"></td>
                             </tr>
                             <tr>
-                                <td></td>
+                                <td align="center" width="650" cellpadding="0" cellspacing="0">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <p>Find a car</p>
+                                                </td>
+                                                <td width="65"></td>
+                                                <td>
+                                                    <p>Used cars</p>
+                                                </td>
+                                                <td width="65"></td>
+                                                <td>
+                                                    <p>New cars</p>
+                                                </td>
+                                                <td width="65" class="mobile-none"></td>
+                                                <td class="mobile-none">
+                                                    <p>Dealers</p>
+                                                </td>
+                                                <td width="65"></td>
+                                                <td>
+                                                    <p>Sell my car</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
                             </tr>
                             <tr>
                                 <td height="10"></td>
@@ -52,7 +83,164 @@
                         </tbody>
                     </table>
                 </td>
-             </tr>
+            </tr>
+            <!-- car image -->
+            <tr>
+                <td width="100%">
+                    <table width="650" cellpadding="0" cellspacing="0">
+                        <tbody>
+                            <tr>
+                                <td width="100%" align="center" cellpadding="0" cellspacing="0" style="line-height: 0px;">
+                                    <img src="./assets/img-1.png" width="100%" alt="car-logo" >
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <!-- bottom logo -->
+            <tr>
+                <td width="100%" cellpadding="0" bgcolor="#2b2c2c" cellspacing="0">
+                    <table width="650" cellpadding="0" cellspacing="0">
+                        <tbody bgcolor="#2b2c2c">
+                            <tr>
+                                <td height="20"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"> 
+                                    <img src="./assets/img-top.png" width="144" alt="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="15"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <!-- logos -->
+            <tr>
+                    <td width="100%" cellpadding="0" bgcolor="#2b2c2c" cellspacing="0">
+                        <table>
+                            <tbody width="650" align="center" cellpadding="0" bgcolor="#2b2c2c" cellspacing="0">
+                                <tr>
+                                    <td>
+                                        <img width="32" src="./assets/facebook-logo-gray.png" alt="">
+                                    </td>
+                                    <td width="15"></td>
+                                    <td>
+                                        <img width="32" src="./assets/twitter-logo-gray.png" alt="">
+                                    </td>
+                                    <td width="15"></td>
+                                    <td>
+                                        <img width="32" src="./assets/instagram-logo-gray.png" alt="">
+                                    </td>
+                                    <td width="15"></td>
+                                    <td>
+                                        <img width="32" src="./assets/youtube-logo-gray.png" alt="">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+            </tr>
+            <!-- address -->
+            <tr>
+                <td bgcolor="#2b2c2c" align="center" cellpadding="0" cellspacig="0">
+                    <table width="650" align="center" cellpadding="0" cellspacig="0">
+                        <tbody>
+                            <tr>
+                                <td align="center" cellpadding="0" cellspacig="0" style="color: #A2A2A2;">
+                                    Automotive Motors, 1230 Deer Creek Road, Gilbert, CA 99999
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <!-- urls -->
+            <tr>
+                <td bgcolor="#2b2c2c" align="center">
+                    <table align="center">
+                        <tbody>
+                            <!-- <tr> -->
+                                <!-- <td></td> -->
+                            <!-- </tr> -->
+                            <tr>
+                                <td>
+                                    <a href="#" style="color: #A2A2A2;">Unsubscribe</a>
+                                </td>
+                                <td width="5"></td>
+                                <td height="10" width="2" bgcolor="#A2A2A2"></td>
+                                <td width="5"></td>
+                                <td>
+                                    <a href="#" style="color: #A2A2A2;">Update Preference</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <!-- final para -->
+            <tr>
+                <td bgcolor="#2b2c2c">
+                    <table align="center">
+                        <tbody>
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td width="70"></td>
+                                    <td  align="center" style="color: #A2A2A2;font-size: 13px;">
+                                        <p>You are receiving this email because you have visited our site or asked us about regular newsletter. Make sure our messages get to your Inbox (and not your bulk or junk folders).</p>
+                                    </td>
+                                    <td width="70"></td>
+                                </tr>
+                            </tbody>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <!-- footer -->
+            <tr>
+                <td bgcolor="#2b2c2c">
+                    <table align="center">
+                        <tbody>
+                            <tbody>
+                                <tr> 
+                                    <td  align="center" style="color: #A2A2A2;font-size: 13px;">
+                                        <p>Vectors graphics designed by <a href="#" style="color: #A2A2A2;">Freepik.</a></p>
+                                    </td> 
+                                </tr>
+                                <tr>
+                                    <td height="30"></td>
+                                </tr>
+                            </tbody>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <!-- footer logo -->
+            <tr>
+                <td bgcolor="#888" align="center" cellpadding="0" cellspacing="0">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td height="20"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="./assets/img-last.png" width="125" alt="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="20"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
         </tbody>
     </table>
 </body>
